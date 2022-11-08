@@ -1,0 +1,89 @@
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+li{display: inline;
+  margin-left: 0%;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+
+h2{
+  color: black; text-align: center; text-justify: auto ; font-weight: bold;text-decoration: underline;
+}
+video {
+  width: 300px;
+  height: 300px;
+  object-fit:fill;
+  object-position: center;
+  border: 5px solid black;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  div {
+    text-align: center;
+  }
+body {
+  background-image: url("./0.jpg");
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 400px;
+  cursor: pointer
+  text-align:center
+   }
+  input {
+    width: 40%;
+    margin-left: 30%;
+  }
+  label {
+    margin-left: 30%;
+  }
+  
+  div insta {
+    width: 90px;
+    height: 90px;
+  }
+  a:-webkit-any-link {
+    color:white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer {
+  background-color: rgb(2, 2, 42);
+}
